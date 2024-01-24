@@ -82,6 +82,24 @@
   font-family: var(--common-font);
 }
 
+@media (min-width: 1440px) {
+  .longread {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: 744px 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .blog {
+    grid-row: 1 / 3;
+  }
+  .socials {
+    align-self: flex-start;
+  }
+  .video {
+    align-self: flex-start;
+  }
+}
+
 .blog {
   display: grid;
   gap: 48px;
