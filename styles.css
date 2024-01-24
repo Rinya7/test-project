@@ -2,13 +2,20 @@
 
 .header {
   background-color: var(--common-white);
-  padding: 16px;
+  padding: 16px 0;
 }
 
 .logo {
   display: block;
   width: 24px;
   height: 24px;
+}
+
+.header-container {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: 24px 1fr;
+  align-items: center;
 }
 
 .label {
